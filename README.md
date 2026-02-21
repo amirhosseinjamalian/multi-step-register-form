@@ -4,6 +4,12 @@ A clean, responsive and fully validated **Multi-Step Registration Form** built w
 
 ---
 
+# ▶️ Live Demo
+🔗 **Demo Online:** 
+[🔗Click here to view the live demo](https://amirhosseinjamalian.github.io/multi-step-register-form/)
+
+---
+
 ## 📌 Overview
 
 StepFlow is a simple yet powerful multi-step form project that demonstrates:
@@ -83,9 +89,9 @@ git clone https://github.com/amirhosseinjamalian/multi-step-register-form.git
 
 Open index.html in your browser.
 
-📸 Preview
+## 📸 Preview
 
-You can add a screenshot here later
+![Screenshot](https://github.com/amirhosseinjamalian/multi-step-register-form/blob/main/screenshot.png)
 
 
 🎯 Future Improvements

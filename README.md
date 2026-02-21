@@ -4,7 +4,7 @@ A clean, responsive and fully validated **Multi-Step Registration Form** built w
 
 ---
 
-# ▶️ Live Demo
+## ▶️ Live Demo
 🔗 **Demo Online:** 
 [🔗Click here to view the live demo](https://amirhosseinjamalian.github.io/multi-step-register-form/)
 

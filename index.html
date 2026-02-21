@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font/fontawesome/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ------STEP_1--------------- -->
+
+      <div id="step1" class="step">
+        <h2>مرحله 1 : اطلاعات شخصی</h2>
+        <div class="form-group">
+          <label for="name">نام</label>
+          <input type="text" id="name" />
+          <span id="alertName">&nbsp;</span>
+        </div>
+        <div class="form-group">
+          <label for="age">سن</label>
+          <input type="number" id="age" />
+          <span id="alertAge">&nbsp;</span>
+        </div>
+        <button id="step2Btn">
+          <span>مرحله بعدی</span>
+          <i class="fa fa-arrow-left"></i>
+        </button>
+      </div>
+
+      <!-- ------STEP_2--------------- -->
+
+      <div id="step2" class="step">
+        <h2>مرحله 2 : آدرس</h2>
+        <div class="form-group">
+          <label for="address">آدرس</label>
+          <input type="text" id="address" />
+          <span id="alertAddress">&nbsp;</span>
+        </div>
+        <div class="form-group">
+          <label for="city">شهر</label>
+          <input type="text" id="city" />
+          <span id="alertCity">&nbsp;</span>
+        </div>
+        <div class="button-group">
+          <button onclick="showStep(1)">
+            <span>مرحله قبلی</span>
+            <i class="fa fa-arrow-right"></i>
+          </button>
+          <button id="step3Btn">
+            <span>مرحله بعدی</span>
+            <i class="fa fa-arrow-left"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- ------STEP_3--------------- -->
+
+      <div id="step3" class="step">
+        <h2>مرحله 3 : تایید</h2>
+        <p>نام : <span id="confirmName"></span></p>
+        <p>سن : <span id="confirmAge"></span></p>
+        <p>آدرس : <span id="confirmAddress"></span></p>
+        <p>شهر : <span id="confirmCity"></span></p>
+
+        <div class="button-group">
+          <button onclick="showStep(2)">
+            <span>مرحله قبلی</span>
+            <i class="fa fa-arrow-right"></i>
+          </button>
+          <button id="submitBtn">ارسال</button>
+        </div>
+      </div>
+
+      <!-- ---------------------------- -->
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

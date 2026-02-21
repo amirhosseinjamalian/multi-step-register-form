@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("font/Vazirmatn-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #f0f0f5;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: -5px -4px 6px 3px rgba(0, 0, 0, 0.1),
+    5px 4px 6px 3px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+}
+
+h2 {
+  color: rgb(249, 2, 125);
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  font-size: 18px;
+  color: rgb(97, 97, 97);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input {
+  border: 3px solid gray;
+  outline: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  background-color: #f2f3f2;
+  font-size: 18px;
+}
+
+input:focus {
+  border-color: rgb(70, 6, 233);
+}
+
+.form-group input + span {
+  display: block;
+  margin: 4px 8px 10px 0;
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+  text-shadow: 0 2px 20px;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  background-color: rgb(249, 2, 125);
+  padding: 12px 20px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -ms-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  user-select: none;
+}
+button:hover {
+  background-color: rgb(210, 5, 107);
+}
+
+#step1 button {
+  margin-right: auto;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#step3 p {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+#step3 p:first-of-type {
+  margin-top: 60px;
+}
+
+#step3 p span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#step3 .button-group {
+  margin-top: 48px;
+}
+
+.success_border {
+  border-color: rgb(16, 188, 16);
+}
+.success_border:focus {
+  border-color: rgb(16, 188, 16);
+}
+
+.error_border {
+  border-color: red;
+}
+.error_border:focus {
+  border-color: red;
+}
